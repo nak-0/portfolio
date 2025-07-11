@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>부산박물관</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            background: #eee;
+        }
+
+        #wrap {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            max-width: 1920px;
+            margin: 0 auto;
+        }
+
+        .btn {
+            position: fixed;
+            right: 10%;
+            bottom: 0;
+        }
+
+        .btn a {
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            width: 60px;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .btn a.view {
+            background: #B69428;
+            font-size: 14px;
+        }
+
+        .btn a.gotop {
+            background: rgba(0, 0, 0, 1);
+        }
+
+        @media (max-width:768px) {
+            .btn {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="btn"><a href="b_m/index.html" class="view">view</a><a href="#" class="gotop">↑</a></div>
+        <a href="b_m/index.html"><img src="../img/b_m_style.jpg" alt="부산박물관 스타일가이드"></a>
+    </div>
+</body>
+
+</html>

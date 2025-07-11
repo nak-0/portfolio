@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>현강이엔지&트리플아이</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            background: #eee;
+        }
+
+        #wrap {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            max-width: 991px;
+            margin: 0 auto;
+        }
+
+        .btn {
+
+            position: fixed;
+            right: 10%;
+            bottom: 70px;
+        }
+
+        .btn a {
+            text-decoration: none;
+            color: #000;
+            display: block;
+            width: 60px;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .top {
+            position: fixed;
+            right: 10%;
+            bottom: 0;
+        }
+
+        .top a {
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            width: 60px;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .btn a.hk {
+            width: 130px;
+            border: 2px solid #000;
+            font-size: 14px;
+            margin-bottom: 30px;
+            transition: all 0.5s;
+        }
+
+        .btn a.hk:hover {
+            width: 130px;
+            color: #fff;
+            border: 2px solid #000;
+            background-color: rgba(0, 0, 0, 1);
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        .top a.gotop {
+
+            background: rgba(0, 0, 0, 1);
+        }
+
+        @media (max-width:768px) {
+            .btn {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="btn">
+            <a href="http://58.239.58.243:50801/meta7/hk/" class="hk">현강이엔지</a>
+            <a href="http://58.239.58.243:50801/meta7/3i/" class="hk">트리플아이</a>
+
+        </div>
+        <div class="top">
+            <a href="#" class="gotop">↑</a>
+        </div>
+        <img src="../img/team_01_style.jpg" alt="현강이엔지 & 트리플아이 스타일가이드">
+    </div>
+</body>
+
+</html>
